@@ -5,7 +5,14 @@
 
 
 <script>
-  // This is the "Offline copy of pages" service worker
+  
+    
+  // СЕРВИС ВОРКЕР "Offline page" service worker
+
+// Add this below content to your HTML page, or add the js file to your page at the very top to register service worker
+
+// Check compatibility for the browser we're running this in
+// This is the "Offline copy of pages" service worker
 
 // Add this below content to your HTML page, or add the js file to your page at the very top to register service worker
 
@@ -24,9 +31,10 @@ if ("serviceWorker" in navigator) {
       });
   }
 }
-
+  
+  
+  
 </script>
-
 
 
 <button onclick="install()">
